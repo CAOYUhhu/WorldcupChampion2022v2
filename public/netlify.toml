@@ -1,0 +1,16 @@
+[[redirects]]
+  from = "/mint"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/static/*"
+  to = "/static/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/"
+  to = "https://home.worldcupchampion.xyz/"
+  status = 200
+  force= true
